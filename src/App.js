@@ -1,10 +1,13 @@
 //React Router
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+//Components
+import Navbar from "./components/Navbar";
+
 //Page components
 import Home from "./pages/home/Home";
 import Create from "./pages/create/Create";
-import Recipe from "./pages/recipe/Recipe";
+import Recipe from "./pages/recipes/Recipe";
 import Search from "./pages/search/Search";
 
 //styles
@@ -14,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Navbar />
         <Switch>
           <Route exact path="/">
             <Home />
@@ -24,7 +28,7 @@ function App() {
           <Route path="/search">
             <Search />
           </Route>
-          <Route path="/recipe/:id">
+          <Route path="/recipes/:id">
             <Recipe />
           </Route>
         </Switch>
