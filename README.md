@@ -8,6 +8,6 @@ Este proyecto consiste en una App de recetas y es un desafío que forma parte de
 
 - 👽 React
 - 🚧 React Router
-- 🛸 JSON viewer
+- 🛸 JSON server
 - 🌈 CSS
 - 🚁 HTML
