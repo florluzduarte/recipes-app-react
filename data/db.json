@@ -48,6 +48,20 @@
       "method": "Hacer una pizza como toda la vida",
       "cookingTime": "35 minutes",
       "id": "DPmqfdf"
+    },
+    {
+      "title": "Tarta de verdura",
+      "ingredients": [
+        "espinaca",
+        "tapa de tarta",
+        "huevos",
+        "cebolla",
+        "crema",
+        "queso"
+      ],
+      "method": "Cortar las verduras en cubos y hornear por 30 minutos en base de oliva. Mezclar los huevos con las verduras asadas, salpimentar. Aderezar con aceto y mostaza, incorporar la crema de leche y la mozzarella en trozos. Mezclar y verter sobre la masa del molde. Cocer hasta que la masa esté lista (30 minutos aproximadamente a horno fuerte).",
+      "cookingTime": "28 minutes",
+      "id": "B_3nDTD"
     }
   ]
 }
